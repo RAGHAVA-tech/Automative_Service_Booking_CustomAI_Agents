@@ -16,11 +16,11 @@ import os
 # -------------------------------
 os.environ["OPENAI_API_KEY"] = st.secrets['OPENAI_API_KEY']
 
-llm = ChatOpenAI(
-    model="gpt-4",
-    temperature=0.2,
-    api_key=os.environ["OPENAI_API_KEY"]
-)
+# llm = ChatOpenAI(
+#     model="gpt-4",
+#     temperature=0.2,
+#     api_key=os.environ["OPENAI_API_KEY"]
+# )
 
 # ── Allow import of main.py from same directory ──────────────────────────────
 sys.path.insert(0, os.path.dirname(__file__))
