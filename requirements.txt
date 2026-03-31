@@ -30,10 +30,10 @@ websockets                  # Real-time communication
 
 # ─── Utilities ────────────────────────────────────────────────────────────────
 python-dotenv               # Environment variables
-#pydantic>=2.0.0             # Data validation
-pydantic==2.6.4
-pydantic-core==2.16.3
-tiktoken==0.7.0
+  
+pydantic              # Data validation
+pydantic-core
+tiktoken
 httpx                       # Async HTTP client
 aiohttp                     # Async HTTP client (alternative)
 schedule                    # Task scheduling
@@ -46,12 +46,12 @@ loguru                      # Advanced logging
 # ─── Installation ─────────────────────────────────────────────────────────────
 #pip install crewai pyautogen semantic-kernel openai twilio fastapi uvicorn
 #pip install sqlalchemy redis python-dotenv pydantic httpx loguru rich
-httpx        # async-friendly, recommended
+httpx        # async-friendly
 requests     # sync alternative
-#sounddevice  # microphone capture
+
 numpy        # raw PCM audio buffer handling
 pydub        # audio format conversion (mp3, wav, pcm)
 websockets   # async WebSocket client
 houndify     # official SoundHound SDK
-streamlit>=1.35.0
-pandas>=2.0.0
+streamlit
+pandas
