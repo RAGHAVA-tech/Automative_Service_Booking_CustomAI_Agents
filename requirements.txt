@@ -5,7 +5,7 @@
 crewai              # CrewAI: Multi-agent conversational framework
 pyautogen            # AutoGen: Multi-agent booking orchestration
 semantic-kernel     # Semantic Kernel: CRM intelligence & plugins
-python==3.13
+python==3.13.*
 
 # ─── Voice / Telephony ────────────────────────────────────────────────────────
 twilio>=8.0.0               # Phone call handling, SMS, voice
