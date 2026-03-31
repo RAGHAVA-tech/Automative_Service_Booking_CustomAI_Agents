@@ -2,40 +2,40 @@
 # Core dependencies (framework simulation — swap with real packages)
 
 # ─── AI Frameworks (install for production) ───────────────────────────────────
-# crewai>=0.28.0              # CrewAI: Multi-agent conversational framework
-# pyautogen>=0.2.0            # AutoGen: Multi-agent booking orchestration
-# semantic-kernel>=0.9.0      # Semantic Kernel: CRM intelligence & plugins
+crewai>=0.28.0              # CrewAI: Multi-agent conversational framework
+pyautogen>=0.2.0            # AutoGen: Multi-agent booking orchestration
+semantic-kernel>=0.9.0      # Semantic Kernel: CRM intelligence & plugins
 
 # ─── Voice / Telephony ────────────────────────────────────────────────────────
-# twilio>=8.0.0               # Phone call handling, SMS, voice
-# openai-whisper              # Speech-to-text (STT)
-# elevenlabs                  # Text-to-speech (TTS) - high quality voice
-# pyttsx3                     # Offline TTS fallback
+twilio>=8.0.0               # Phone call handling, SMS, voice
+openai-whisper              # Speech-to-text (STT)
+elevenlabs                  # Text-to-speech (TTS) - high quality voice
+pyttsx3                     # Offline TTS fallback
 
 # ─── LLM Backends ─────────────────────────────────────────────────────────────
-# openai>=1.0.0               # GPT-4o backend for all agents
-# anthropic>=0.20.0           # Claude backend alternative
-# langchain>=0.1.0            # Chain utilities
+openai>=1.0.0               # GPT-4o backend for all agents
+anthropic>=0.20.0           # Claude backend alternative
+langchain>=0.1.0            # Chain utilities
 
 # ─── Database / CRM ───────────────────────────────────────────────────────────
-# sqlalchemy>=2.0.0           # Database ORM
-# psycopg2-binary             # PostgreSQL driver
-# pymongo                     # MongoDB driver (alternative)
-# redis>=5.0.0                # Session/cache management
+sqlalchemy>=2.0.0           # Database ORM
+psycopg2-binary             # PostgreSQL driver
+pymongo                     # MongoDB driver (alternative)
+redis>=5.0.0                # Session/cache management
 
 # ─── Web Framework ────────────────────────────────────────────────────────────
-# fastapi>=0.100.0            # REST API server
-# uvicorn[standard]           # ASGI server
-# websockets                  # Real-time communication
+fastapi>=0.100.0            # REST API server
+uvicorn[standard]           # ASGI server
+websockets                  # Real-time communication
 
 # ─── Utilities ────────────────────────────────────────────────────────────────
-# python-dotenv               # Environment variables
-# pydantic>=2.0.0             # Data validation
-# httpx                       # Async HTTP client
-# aiohttp                     # Async HTTP client (alternative)
-# schedule                    # Task scheduling
-# rich                        # Terminal UI formatting
-# loguru                      # Advanced logging
+python-dotenv               # Environment variables
+pydantic>=2.0.0             # Data validation
+httpx                       # Async HTTP client
+aiohttp                     # Async HTTP client (alternative)
+schedule                    # Task scheduling
+rich                        # Terminal UI formatting
+loguru                      # Advanced logging
 
 # ─── Standard Library (no install needed) ─────────────────────────────────────
 # asyncio, uuid, json, datetime, dataclasses, enum, typing, random, re
