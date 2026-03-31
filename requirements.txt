@@ -43,12 +43,12 @@
 # ─── Installation ─────────────────────────────────────────────────────────────
 #pip install crewai pyautogen semantic-kernel openai twilio fastapi uvicorn
 #pip install sqlalchemy redis python-dotenv pydantic httpx loguru rich
-#pip install httpx        # async-friendly, recommended
-pip install requests     # sync alternative
-pip install sounddevice  # microphone capture
-pip install numpy        # raw PCM audio buffer handling
-pip install pydub        # audio format conversion (mp3, wav, pcm)
-pip install websockets   # async WebSocket client
-pip install houndify     # official SoundHound SDK
+httpx        # async-friendly, recommended
+requests     # sync alternative
+install sounddevice  # microphone capture
+numpy        # raw PCM audio buffer handling
+pydub        # audio format conversion (mp3, wav, pcm)
+websockets   # async WebSocket client
+houndify     # official SoundHound SDK
 streamlit>=1.35.0
 pandas>=2.0.0
