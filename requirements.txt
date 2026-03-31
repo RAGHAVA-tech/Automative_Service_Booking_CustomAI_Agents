@@ -2,9 +2,9 @@
 # Core dependencies (framework simulation — swap with real packages)
 
 # ─── AI Frameworks (install for production) ───────────────────────────────────
-crewai>=0.28.0              # CrewAI: Multi-agent conversational framework
-pyautogen>=0.2.0            # AutoGen: Multi-agent booking orchestration
-semantic-kernel>=0.9.0      # Semantic Kernel: CRM intelligence & plugins
+crewai              # CrewAI: Multi-agent conversational framework
+pyautogen            # AutoGen: Multi-agent booking orchestration
+semantic-kernel     # Semantic Kernel: CRM intelligence & plugins
 
 # ─── Voice / Telephony ────────────────────────────────────────────────────────
 twilio>=8.0.0               # Phone call handling, SMS, voice
