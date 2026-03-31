@@ -17,6 +17,7 @@ pyttsx3                     # Offline TTS fallback
 openai>=1.0.0               # GPT-4o backend for all agents
 anthropic>=0.20.0           # Claude backend alternative
 langchain>=0.1.0            # Chain utilities
+langchain-openai
 
 # ─── Database / CRM ───────────────────────────────────────────────────────────
 sqlalchemy>=2.0.0           # Database ORM
