@@ -45,7 +45,7 @@ loguru                      # Advanced logging
 #pip install sqlalchemy redis python-dotenv pydantic httpx loguru rich
 httpx        # async-friendly, recommended
 requests     # sync alternative
-sounddevice  # microphone capture
+#sounddevice  # microphone capture
 numpy        # raw PCM audio buffer handling
 pydub        # audio format conversion (mp3, wav, pcm)
 websockets   # async WebSocket client
