@@ -30,7 +30,10 @@ websockets                  # Real-time communication
 
 # ─── Utilities ────────────────────────────────────────────────────────────────
 python-dotenv               # Environment variables
-pydantic>=2.0.0             # Data validation
+#pydantic>=2.0.0             # Data validation
+pydantic==2.6.4
+pydantic-core==2.16.3
+tiktoken==0.7.0
 httpx                       # Async HTTP client
 aiohttp                     # Async HTTP client (alternative)
 schedule                    # Task scheduling
