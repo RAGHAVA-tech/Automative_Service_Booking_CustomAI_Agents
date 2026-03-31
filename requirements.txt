@@ -43,7 +43,7 @@
 # ─── Installation ─────────────────────────────────────────────────────────────
 #pip install crewai pyautogen semantic-kernel openai twilio fastapi uvicorn
 #pip install sqlalchemy redis python-dotenv pydantic httpx loguru rich
-pip install httpx        # async-friendly, recommended
+#pip install httpx        # async-friendly, recommended
 pip install requests     # sync alternative
 pip install sounddevice  # microphone capture
 pip install numpy        # raw PCM audio buffer handling
