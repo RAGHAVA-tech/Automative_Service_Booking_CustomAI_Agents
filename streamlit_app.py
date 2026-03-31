@@ -7,7 +7,7 @@ Cloud:  Push to GitHub → connect at share.streamlit.io
 
 import streamlit as st
 from datetime import datetime, timedelta
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 import sys
 import os
 
